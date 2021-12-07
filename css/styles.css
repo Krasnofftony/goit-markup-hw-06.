@@ -447,6 +447,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  display: block;
 }
 
 .studio-social-media {
@@ -457,6 +458,52 @@ body {
 .row-items-footer {
   display: flex;
   align-items: flex-start;
+}
+
+.footer-input {
+  margin-left: 93px;
+}
+
+.email-input {
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-submission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--elements-white);
+  background: var(--brand-color);
+  border: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-icon {
+  margin-left: 10px;
 }
 
 /*portfolio page*/
