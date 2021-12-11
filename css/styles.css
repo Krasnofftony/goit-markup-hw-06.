@@ -750,20 +750,20 @@ body {
 
 .input-wrap {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .input-icon {
   position: absolute;
-  top: 50%;
+  top: 76%;
   left: 15px;
-  transform: translateY(-50%);
+  transform: translateY(-76%);
 }
 
 .input-layout {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   padding: 12px 42px;
 
   width: 100%;
@@ -777,9 +777,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-center {
+.btn-margins {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .textarea-layout {
@@ -821,7 +822,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
   color: var(--text-main);
   font-size: 14px;
   line-height: 1.71;
